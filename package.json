@@ -1,8 +1,9 @@
 {
-  "name": "prosemirror-inputrules",
-  "version": "1.0.1",
+  "name": "@jimpick/prosemirror-inputrules",
+  "version": "1.0.1-1",
   "description": "Automatic transforms on text input for ProseMirror",
   "main": "dist/index.js",
+  "module": "src/index.js",
   "license": "MIT",
   "maintainers": [
     {
@@ -16,8 +17,8 @@
     "url": "git://github.com/prosemirror/prosemirror-inputrules.git"
   },
   "dependencies": {
-    "prosemirror-state": "^1.0.0",
-    "prosemirror-transform": "^1.0.0"
+    "@jimpick/prosemirror-state": "^1.2.2-4",
+    "@jimpick/prosemirror-transform": "^1.1.3-1"
   },
   "devDependencies": {
     "rollup": "^0.49.0",

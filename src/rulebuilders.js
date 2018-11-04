@@ -1,5 +1,5 @@
 import {InputRule} from "./inputrules"
-import {findWrapping, canJoin} from "prosemirror-transform"
+import {findWrapping, canJoin} from "@jimpick/prosemirror-transform"
 
 // :: (RegExp, NodeType, ?union<Object, ([string]) → ?Object>, ?([string], Node) → bool) → InputRule
 // Build an input rule for automatically wrapping a textblock when a
